@@ -1,14 +1,14 @@
 #!/bin/bash
 
 echo "This is Table Manager Script"
-echo "Please choose following commands:"
-echo ""
+echo -e  "Please choose following commands:\n"
+
 echo "1 See table"
 echo "2 list column"
 echo "3 Sort table"
 echo "4 Modify table"
-echo ""
-echo "other: exit"
+
+echo -e  "\nother: exit"
 echo -n "Please choose the commands(1-4): "
 read cmd
 
@@ -18,11 +18,13 @@ elif [ "$cmd" == "2" ]; then
 	cat table.txt | head -n1
 	echo -n "List Column: "
 	read col
+	echo ""
 	awk -v var=$col '{print $var}' table.txt
 elif [ "$cmd" == "3" ]; then
 	cat table.txt | head -n1
 	echo -n "Sort Column: "
 	read col
+	echo -e "\n"
 	tail -n +2 table.txt | sort -k$col
 elif [ "$cmd" == "4" ]; then
 	cat table.txt | head -n1

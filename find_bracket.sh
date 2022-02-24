@@ -5,11 +5,10 @@ echo -n "Enter file name: "
 
 read file
 
-echo ""
+echo -e "\n"
 grep -P '\[.*?\]' $file
 
-echo ""
-echo -n "Do you want to remove brackets into new file? (y/n)"
+echo -ne "\nDo you want to remove brackets into new file? (y/n): "
 read cmd
 
 if [ "$cmd" == "y" ];then

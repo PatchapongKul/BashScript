@@ -3,14 +3,14 @@ Linux
 
 Linux was originally developed for personal computers based on the 
 Intel x86 architecture, but has since been ported to more platforms 
-than any other operating system.[22] Because of the dominance of the 
+than any other operating system.[1] Because of the dominance of the 
 Linux-based Android on smartphones, Linux also has the largest installed 
-base of all general-purpose operating systems.[23][24][25][26] Although 
-Linux is used by only around 2.3 percent of desktop computers,[27][28] 
+base of all general-purpose operating systems.[2] Although 
+Linux is used by only around 2.3 percent of desktop computers,[3] 
 the Chromebook, which runs the Linux kernel-based Chrome OS, dominates 
 the US K–12 education market and represents nearly 20 percent of 
-sub-$300 notebook sales in the US.[29] Linux is the leading operating 
+sub-$300 notebook sales in the US.[4] Linux is the leading operating 
 system on servers (over 96.4% of the top 1 million web servers' 
-operating systems are Linux),[30] leads other big iron systems such as 
+operating systems are Linux),[5] leads other big iron systems such as 
 mainframe computers, and is the only OS used on TOP500 supercomputers 
 (since November 2017, having gradually eliminated all competitors).
