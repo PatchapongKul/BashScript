@@ -1,14 +1,14 @@
 #!/bin/bash
 
 echo "This is Table Manager Script"
-echo "Please choose following commands:"
-echo ""
+echo -e  "Please choose following commands:\n"
+
 echo "1 See table"
 echo "2 list column"
 echo "3 Sort table"
 echo "4 Modify table"
-echo ""
-echo "other: exit"
+
+echo -e  "\nother: exit"
 echo -n "Please choose the commands(1-4): "
 read cmd
 
